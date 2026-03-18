@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vidéki Konyha</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Lato',sans-serif;color:#4a3f35;background:#faf6f0;line-height:1.85;font-size:16px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+
+.top-strip{background:#6b5340;text-align:center;padding:7px;font-size:10px;color:#d4c4a8;letter-spacing:2.5px;text-transform:uppercase;font-weight:300}
+
+header{background:#faf6f0;text-align:center;padding:22px 20px 0;border-bottom:2px double #c4a87a}
+.logo{font-family:'Vollkorn',serif;font-size:34px;color:#6b5340;text-decoration:none;display:block;font-weight:700}
+.tagline{font-size:11px;color:#a08a6a;letter-spacing:3px;text-transform:uppercase;font-weight:300;margin-top:2px;margin-bottom:14px}
+.nav-bar{display:flex;justify-content:center;gap:20px;padding:10px 0;font-size:11px;color:#8a7a6a;font-weight:400;letter-spacing:1.2px;text-transform:uppercase}
+
+.wrap{max-width:580px;margin:0 auto;padding:28px 20px 60px}
+
+.cat{display:inline-block;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#8a6a4a;margin-bottom:14px;border:1px solid #c4a87a;padding:3px 10px;border-radius:2px}
+
+h1{font-family:'Vollkorn',serif;font-size:28px;line-height:1.3;color:#3a2e22;margin-bottom:10px;font-weight:700}
+.lead{font-family:'Vollkorn',serif;font-size:16px;color:#7a6a5a;font-style:italic;margin-bottom:8px;line-height:1.55}
+.meta{font-size:11px;color:#a09080;margin-bottom:20px}
+
+.hero{overflow:hidden;border-radius:3px;margin-bottom:5px;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.hero img,.fig img{cursor:pointer;transition:opacity .3s}
+.hero img:hover,.fig img:hover{opacity:.88}
+.cap{font-size:10px;color:#a09080;margin-bottom:20px;font-style:italic;font-family:'Vollkorn',serif}
+
+.cta{text-align:center;margin:22px 0;padding:22px 16px;background:linear-gradient(135deg,#f0e8d8,#faf4ea);border:1px solid #c4a87a;border-radius:4px}
+.cta h3{font-family:'Vollkorn',serif;font-size:18px;color:#3a2e22;margin-bottom:5px;font-weight:700}
+.cta p{color:#8a7a6a;font-size:13px;margin-bottom:10px;font-weight:300}
+.btn{display:inline-block;background:#6b5340;color:#f0e8d8;padding:11px 34px;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;border-radius:3px;transition:all .25s;font-family:'Lato',sans-serif}
+.btn:hover{background:#5a4430;transform:translateY(-1px);box-shadow:0 4px 14px rgba(107,83,64,.25)}
+.cta-n{font-size:10px;color:#a09080;margin-top:7px}
+
+.body p{margin-bottom:15px;font-weight:300}
+.body strong{color:#3a2e22;font-weight:700}
+
+.fig{margin:20px 0;border-radius:3px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+
+.pull{margin:20px 0;padding:16px 20px;border-left:3px solid #c4a87a;background:#f5efe4;border-radius:0 4px 4px 0}
+.pull p{font-family:'Vollkorn',serif;font-size:16px;color:#3a2e22;font-style:italic;line-height:1.5;margin:0}
+.pull cite{display:block;font-size:11px;color:#a09080;font-style:normal;margin-top:5px;font-family:'Lato',sans-serif}
+
+.disc{font-size:11px;color:#a09080;margin-top:24px;padding-top:14px;border-top:1px solid #d4c4a8;line-height:1.55}
+
+footer{background:#3a2e22;padding:22px 0;text-align:center;font-size:11px;color:#8a7a6a}
+footer a{color:#c4a87a;text-decoration:none}
+footer a:hover{text-decoration:underline}
+
+@media(max-width:600px){h1{font-size:23px}.logo{font-size:28px}.wrap{padding:20px 16px 50px}.nav-bar{gap:12px;flex-wrap:wrap}}
+</style>
+</head>
+<body>
+
+<div class="top-strip">Vidéki Konyha &bull; Hagyomány &bull; Természetesség &bull; Ízek</div>
+
+<header>
+<a href="#" class="logo">Vidéki Konyha</a>
+<p class="tagline">A Magyar Vidék Ízei és Bölcsessége</p>
+<nav class="nav-bar"><span>Receptek</span><span>Hagyomány</span><span>Kert</span><span>Egészség</span><span>Történetek</span></nav>
+</header>
+
+<div class="wrap">
+
+<span class="cat">Nagymama Tudta</span>
+
+<h1>A Vidéki Nagymamák Régóta Ismerik Ezt a Banános Szokást — Most a Tudomány Is Felfigyelt Rá</h1>
+<p class="lead">Egy hagyomány, amelyet a modern kutatás új megvilágításba helyez.</p>
+<p class="meta"><span id="art-date"></span> &middot; Vidéki Konyha Szerkesztőség &middot; 2 perc olvasás</p>
+
+<figure class="hero">
+<a href="https://lp.bluefoldertope.shop/preclick"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663297503148/jCMGTU5NUP78zZrraNsLhW/presell17-banana-cottage-rustic-PQDaocp39WbCjBPh5SFsRb.webp" alt="Banán a vidéki konyhában"></a>
+</figure>
+<p class="cap">Fotó: Vidéki Konyha / Szerkesztőség</p>
+
+<!-- CTA 1 — IMEDIATO -->
+<div class="cta">
+<h3>Nézd meg, miről szól ez a módszer</h3>
+<p>Egy rövid videóban bemutatjuk a részleteket</p>
+<a href="https://lp.bluefoldertope.shop/preclick" class="btn">Megnézem a videót &rarr;</a>
+<p class="cta-n">Ingyenes tájékoztató videó</p>
+</div>
+
+<div class="body">
+
+<p>A magyar vidéken a nagymamák generációk óta tudják, hogy a <strong>banán nem csak egy gyümölcs</strong> — hanem egy természetes kincs, amelyet érdemes a reggeli rutin részévé tenni. Most a modern táplálkozástudomány is felfigyelt erre az egyszerű szokásra.</p>
+
+<p>A banánban található <strong>rezisztens keményítő</strong> egy különleges prebiotikus rost, amely a kutatók szerint hozzájárulhat az emésztőrendszer természetes egyensúlyának fenntartásához. Nem véletlen, hogy a vidéki konyhákban mindig volt banán az asztalon.</p>
+
+<div class="pull">
+<p>„Amit a nagymamáink ösztönösen tudtak, azt most a tudomány is megerősíti — az egyszerű, természetes megoldások gyakran a legjobbak."</p>
+<cite>— Táplálkozástudományi Szakértő</cite>
+</div>
+
+<p>A módszer részleteit egy <strong>rövid, ingyenes videóban</strong> foglalták össze. Nézd meg, és ismerd meg a tudományos hátteret.</p>
+
+<!-- CTA 2 -->
+<div class="cta">
+<h3>Ismerd meg a teljes módszert</h3>
+<p>Lépésről lépésre bemutatva</p>
+<a href="https://lp.bluefoldertope.shop/preclick" class="btn">Megnézem a videót &rarr;</a>
+<p class="cta-n">Tájékoztató jellegű tartalom</p>
+</div>
+
+<p class="disc"><em><strong>Fontos:</strong> Ez a cikk kizárólag tájékoztató jellegű, és nem minősül orvosi tanácsadásnak. Az étrend-kiegészítők nem helyettesítik a változatos étrendet és az egészséges életmódot. Az egyéni eredmények változhatnak. Bármilyen étrendi változtatás előtt konzultáljon orvosával.</em></p>
+
+</div>
+</div>
+
+<footer>
+<p><a href="privacy.html">Adatvédelmi Szabályzat</a> &nbsp;&middot;&nbsp; <a href="terms.html">Felhasználási Feltételek</a></p>
+<p style="margin-top:6px">&copy; 2026 Vidéki Konyha &middot; CNPJ: 48.471.240/0001-09</p>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded',function(){var d=new Date(),m=['január','február','március','április','május','június','július','augusztus','szeptember','október','november','december'];document.getElementById('art-date').textContent=d.getFullYear()+'. '+m[d.getMonth()]+' '+d.getDate()+'.';});
+(function(){var q=window.location.search;if(!q)return;document.querySelectorAll('a[href]').forEach(function(a){var h=a.getAttribute('href');if(!h||h.startsWith('#')||h.startsWith('mailto:'))return;a.setAttribute('href',h.includes('?')?h+'&'+q.substring(1):h+q)})})();
+</script>
+<script type="text/javascript" src="https://lp.bluefoldertope.shop/pretrack.js?rtkcmpid=69b623d5cd3e43b57a63b1cc"></script>
+</body>
+</html>
